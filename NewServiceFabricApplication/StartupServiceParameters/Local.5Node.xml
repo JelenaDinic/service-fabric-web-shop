@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StartupServices xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="PubSubService_PartitionCount" Value="1" />
+    <Parameter Name="PubSubService_MinReplicaSetSize" Value="3" />
+    <Parameter Name="PubSubService_TargetReplicaSetSize" Value="3" />
+    <Parameter Name="PaymentService_InstanceCount" Value="1" />
+    <Parameter Name="CartsService_PartitionCount" Value="1" />
+    <Parameter Name="CartsService_MinReplicaSetSize" Value="3" />
+    <Parameter Name="CartsService_TargetReplicaSetSize" Value="3" />
+    <Parameter Name="CustomersService_PartitionCount" Value="1" />
+    <Parameter Name="CustomersService_MinReplicaSetSize" Value="3" />
+    <Parameter Name="CustomersService_TargetReplicaSetSize" Value="3" />
+    <Parameter Name="WebAPI_InstanceCount" Value="1" />
+    <Parameter Name="ProductsService_InstanceCount" Value="1" />
+  </Parameters>
+</StartupServices>
